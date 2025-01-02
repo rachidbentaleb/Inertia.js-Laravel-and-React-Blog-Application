@@ -28,12 +28,11 @@ This project reflects the integration of these technologies to build a straightf
 - how these tools work together to create a functional application.
 
 # Why I Recommend Inertia.js
-# Working with Inertia.js was an incredible experience. 
-# It simplifies the development process by eliminating the need for APIs, 
-# making it easier to connect Laravel and React.
-
-# - It allowed me to focus on building features without being bogged down by complex API setups.
-# - It made understanding and implementing single-page applications much more accessible.
+- Working with Inertia.js was an incredible experience. 
+- It simplifies the development process by eliminating the need for APIs, 
+- making it easier to connect Laravel and React.
+- It allowed me to focus on building features without being bogged down by complex API setups.
+- It made understanding and implementing single-page applications much more accessible.
 
 # If you're a student or just getting started with Laravel and React, 
 # I highly recommend using Inertia.js. It's an amazing tool that can save time and enhance 
