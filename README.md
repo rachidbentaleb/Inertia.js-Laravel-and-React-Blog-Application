@@ -23,9 +23,9 @@ This project reflects the integration of these technologies to build a straightf
 - **Delete Posts**: Remove posts when they are no longer needed.  
 
 # 🎯 Why This Project?
-# This is my first project that combines Laravel, React, and Inertia.js. 
-# It represents a milestone in my journey as a developer, allowing me to explore 
-# how these tools work together to create a functional application.
+- This is my first project that combines Laravel, React, and Inertia.js. 
+- It represents a milestone in my journey as a developer, allowing me to explore 
+- how these tools work together to create a functional application.
 
 # Why I Recommend Inertia.js
 # Working with Inertia.js was an incredible experience. 
