@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(9, 13, 49);
+    height: 120px;
+    color: white;
+    padding: 3%;
+    font-family: sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    list-style: none;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin: 5%;
+    font-family: sans-serif;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+    list-style: none;
+    margin: 40px;
+    align-items: center;
+}
+
+.posts li {
+    border-bottom: 2px solid  rgb(14, 24, 109);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 40px;
+}
+
+.pagination a{
+    color: rgb(51, 52, 61);
+    text-decoration: none;
+    font-size: 18px;
+}
+.pagination a.active{
+    font-weight: bold;
+    color: rgb(14, 24, 109);
+}
+
+.notactive{
+    color: rgb(216, 220, 255);
+}
+
+.formulaire{
+    display: flex;
+    justify-content: center;
+}
+
+.formulaire form{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+form textarea{
+    width: 100%;
+    height: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+form button {
+    width: 100%;
+    padding: 12px 20px;
+    border:none;
+    border-radius: 3px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(14, 24, 109);
+    cursor: pointer;
+}
+
+form span {
+    color: red;
+}
+
+.delete-btn{
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.alert{
+    background-color: #ffeb3b;
+    color: rgb(14, 24, 109);
+    padding: 12px;
+    text-align: start;
+    margin: 20px;
+    border-radius: 3px;
+}
+
+.calltoaction{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.update-btn{
+    background-color: #28a745;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+a.update-btn {
+    color: white;
+    text-decoration: none;
+}
